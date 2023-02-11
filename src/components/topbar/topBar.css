@@ -1,0 +1,107 @@
+.top {
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  z-index: 999; /*显示在最前面*/
+  background-color: aquamarine;
+}
+.topComponents {
+  align-items: center;
+  justify-content: center;
+}
+
+.topLeft,
+.topRight {
+  flex: 2; /*占据20%*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.topIcon {
+  font-size: 1.3rem;
+  margin-right: 30px;
+  cursor: pointer;
+  color: #444;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover; /*防止图片奇奇怪怪*/
+}
+
+.topCenter {
+  flex: 8;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  margin-left: 10px;
+  height: 40px;
+  width: 90%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.topList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+/***********************bootstrap**************************/
+.bstop {
+  position: sticky;
+  top: 0px;
+  background-color: rgba(211, 211, 211, 0.459);
+  z-index: 9999; /*显示在最前面*/
+}
+
+.bsnavlist {
+  font-family: "Josefin Sans", sans-serif;
+  /* margin-left: 50px; */
+  font-size: 18px;
+  font-weight: 300;
+  gap: 1.25rem;
+  cursor: pointer;
+}
+.bsbutton {
+  margin-right: 80px;
+}

@@ -1,0 +1,66 @@
+.post {
+  width: 400px;
+  margin: 0px 25px 40px 80px;
+}
+
+.postImg {
+  width: 400px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.postTitle {
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.postDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #f19f34;
+  margin-top: 10px;
+}
+
+.postDesc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 10px;
+  color: #444444;
+  margin-top: 10px;
+  text-overflow: ellipsis; /*缩略显示*/
+  overflow: hidden;
+  white-space: nowrap;
+  display: -webkit-box; /*显示限制*/
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1080px) {
+  .postImg {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  .post {
+    width: 300px;
+    margin: 0px 25px 40px 25px;
+  }
+  .postTitle {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+}

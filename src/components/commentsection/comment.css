@@ -1,0 +1,43 @@
+.comment {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.commentHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.commentUser {
+  color: #be9656;
+}
+
+.commentTime {
+  color: #be9656;
+  font-size: 0.8rem;
+}
+
+.commentBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentInfo {
+  margin-left: 4rem;
+}
+
+.commentUserImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover; /*防止图片奇奇怪怪*/
+}
+.commentButton {
+  margin-top: 10px;
+  width: 80px;
+  align-self: flex-end;
+}
+.commentFooter {
+  margin-top: 10px;
+}

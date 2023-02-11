@@ -1,0 +1,65 @@
+.write {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.writeImg {
+  align-self: center;
+  /* margin-left: 150px; */
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.writeForm {
+  position: relative;
+}
+
+.writeIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: rgb(98, 97, 97);
+}
+
+.writeInput {
+  padding: 20px;
+  width: 80vw;
+}
+.inputTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#inputContent .ql-editor {
+  height: 400px;
+}
+
+#inputInformation .ql-editor {
+  height: 100px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.writeText {
+  width: 70vw;
+  height: 100vh;
+  font-size: 20px;
+}
